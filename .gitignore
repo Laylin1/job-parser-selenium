@@ -1,0 +1,33 @@
+# Компилированные файлы
+*.class
+
+# Логи
+*.log
+
+# Папки сборки
+/bin/
+/build/
+/out/
+/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Конфигурации ОС
+.DS_Store
+Thumbs.db
+
+# Кэш Maven
+.mvn/
+!**/src/main/**/.keep
+
+# Файлы окружения
+*.env
+
+# Пароли, ключи и чувствительные данные (впиши своё при необходимости)
+secrets.txt
+config.properties
